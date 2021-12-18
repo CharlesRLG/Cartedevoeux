@@ -1,0 +1,160 @@
+@media screen and (min-width:980px){
+    body {
+        height: 900px;
+        background: radial-gradient(ellipse at bottom, rgb(56, 2, 2) 0%, rgb(56, 2, 2));
+    }
+
+    .snowflake {
+        position: absolute;
+        width: 10px;
+        height: 6px;
+        background: linear-gradient(gold, gold); /* Workaround for Chromium's selective color inversion */
+        /* border-radius: 50%; */
+        filter: drop-shadow(0 0 10px gold);
+    }
+
+    #carte_voeux {
+        
+        padding-top: 20px;
+        margin: 50px;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .houx_lateral img {
+        width: 100%;
+        max-width: 1200px;
+        margin-top: 50px;
+        min-width: 20px;
+    }
+
+    #contenu_voeux {
+        display: flex;
+        justify-content: center;
+    } 
+
+    #corp {
+        width: 90%;
+        max-width: 800px;
+        min-width: 550px;
+        margin-top: 50px;
+        padding-top: 50px;
+        background: rgb(174, 171, 226);
+        border: gold 2px solid;
+        border-radius: 35% 35% 10% 10%;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        align-items: center;
+    }
+
+    .etape_voeux2 {
+        display: flex;
+        /* flex-direction: row; */
+        /* justify-content: space-around; */
+        align-items: flex-end;
+    }
+
+    .element_voeux img {
+        width: 50%;
+        max-width: 950px;
+    }
+
+    .element_voeux1 img {
+        width: 50%;
+        max-width: 950px;
+        text-align: center;
+    }
+
+    .element_voeux5 {
+        display: none;
+    }
+
+    .element_voeux4 img {
+        width: 100%;
+        max-width: 1000px;
+    }
+}
+
+/* format mobile */
+
+@media screen and (max-width:980px){
+    body {
+        height: 800px;
+        background: radial-gradient(ellipse at bottom, rgb(56, 2, 2) 0%, rgb(56, 2, 2));
+    }
+
+    .snowflake {
+        position: absolute;
+        width: 10px;
+        height: 6px;
+        background: linear-gradient(gold, gold); /* Workaround for Chromium's selective color inversion */
+        /* border-radius: 50%; */
+        filter: drop-shadow(0 0 10px gold);
+    }
+
+    #carte_voeux {
+        
+        padding-top: 20px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-self: center;
+        text-align: center;
+    }
+
+    .houx_lateral img {
+        display: none;
+    }
+
+    #contenu_voeux {
+        display: flex;
+        align-self: center;
+        margin-left: 30px;
+
+    } 
+
+    #corp {
+        width: 90%;
+        max-width: 900px;
+        min-width: 700px;
+        margin-top: 50px;
+        padding-top: 50px;
+        background: rgb(174, 171, 226);
+        border: gold 2px solid;
+        border-radius: 55% 55% 5% 5%;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .etape_voeux2 {
+        display: flex;
+        /* flex-direction: row; */
+        /* justify-content: space-around; */
+        align-items: flex-end;
+    }
+
+    .element_voeux img {
+        width: 80%;
+        max-width: 350px;
+    }
+
+    .element_voeux1 img {
+        width: 80%;
+        max-width: 700px;
+        text-align: center;
+    }
+
+    .element_voeux4 img {
+        width: 60%;
+        min-width: 400px;
+    }
+    .element_voeux5 img {
+        width: 60%;
+        min-width: 400px;
+    }
+
+  
+}
